@@ -1,0 +1,10 @@
+# Ignore datasets and model weights
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
+
+# Python caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
